@@ -1,0 +1,84 @@
+.log_info{
+    font-family: "Poppins", sans-serif !important;
+    float: left;
+    width: 100%;
+    background: #fff;
+    min-height: 600px;
+}
+.tab_body{
+    padding: 50px;
+}
+.react-tabs__tab{
+    width: 20%;
+    padding: 20px 0px;
+}
+.react-tabs__tab{
+    text-align: center;
+}
+.react-tabs__tab-list , .react-tabs__tab--selected{
+    border-color: #D6D6D6;
+    border-top: 0px;
+    border-radius: 0px;
+}
+.tab_body h5{
+    margin-bottom: 50px;
+}
+.top_settings h5{
+    margin: 0px;
+ }
+.top_settings{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.react-tabs{
+    float: left;
+    width: 100%;
+    position: relative;
+    top: -2px;
+}
+.filler{
+    position: relative;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+}
+.body_in li{
+    display: flex;
+    align-items: center
+}
+.body_in li > div{
+    position: relative;
+    float: left;
+    width: 400px;
+    margin-left: 50px;
+}
+.filler:after{
+    content: '';
+    border: 1px solid #FFD19B;
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #fff;
+    top: -6px;
+}
+.p_body_in{
+    display: flex;
+    justify-content: space-between;
+}
+.p_body_in p{
+    margin: 0px;
+}
+.filler span{
+    position: absolute;
+    right: 0px;
+    top: -46px;
+}
+.content_set{
+    line-height: 45px;
+}

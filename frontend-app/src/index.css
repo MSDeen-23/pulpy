@@ -1,0 +1,164 @@
+
+.navbar{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.logo-sm {
+  background-size: 85% !important;
+  background-repeat: no-repeat !important;
+  height: 40px !important;
+  display: table;
+  margin: 0 0.5rem !important;
+}
+.pulpyLogo{
+  background: url(../src/assets/images/pulpylogo.svg);
+  width: 176px;
+  height: 53px;
+  margin: 2rem auto;
+  display: block;
+}
+.MessageDrawer .MuiDrawer-paper {
+  width: 23% !important;
+}
+.overview-example__add {
+  display: none;
+}
+.mt-3 {
+  margin-top: 1rem!important;
+  display: block;
+}
+.react-flow__node a {
+  font-weight: 700;
+  color: #111;
+}
+.react-flow__node .btn.btn-primary {
+  background-image: linear-gradient(110deg, rgb(255, 129, 64) 0%, rgb(255, 90, 6) 100%) !important;
+  color: #fff !important;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.react-flow__node-default.selected, .react-flow__node-default.selected:hover{
+  box-shadow: none !important;
+}
+.react-flow__node .btn.btn-primary svg {
+  color: #fff;
+}
+button.reactFlowBtn.btn.btn-secondary {
+  border-radius: 5px;
+  padding: 10px;
+  background: #ffffff;
+  color: #FF8140;
+  word-spacing: 5px;
+  display: table;
+}
+.react-flow__node .btn.btn-secondary svg{
+  color: #FF8140;
+}
+.react-flow__node-input .react-flow__handle {
+  background: #FF8140;
+}
+.react-flow__node.dark-node {
+  background: #0041d0;
+  color: #f8f8f8;
+}
+.react-flow__node{
+  padding: 0 !important;
+}
+.react-flow__node.dark {
+  background: #557;
+  color: #f8f8f8;
+}
+​
+.react-flow__node-selectorNode {
+  font-size: 12px;
+  background: #f0f2f3;
+  border: 1px solid 555;
+  border-radius: 5px;
+  text-align: center;
+}
+​
+.react-flow__node-selectorNode .react-flow__handle {
+  border-color: #f0f2f3;
+}
+.reactFlowBtn {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  color: #222;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.reactAddActionBtn {
+  border-radius: 3px;
+  border-style: dashed;
+  border-width: 1px;
+  color: #222;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  background-color: #fff;
+}
+.react-flow__node-default, .react-flow__node-input, .react-flow__node-output{
+  border: 0px !important;
+}
+@media screen and (min-width: 768px) {
+  .overview-example__add {
+    display: block;
+  }
+}
+.navbar {
+  background: #fff !important;
+  color: #333 !important;
+}
+.Content {
+  padding: 1rem;
+}
+.xingleft-content{background-color: #F5F5F5;width: 100%;min-height: 900px;display: block;}
+.xingleft-content h4{color: #3730A3;font-size: 32px;font-weight: 700;padding: 20px;}
+.xingright-content {
+  padding: 1.5rem;
+}
+.xingright-content a{color: #3730A3;font-size: 18px;font-weight: 500;display: block;text-align: right;}
+.xingright-content h5 {
+  color: #000000;
+  font-size: 1.89rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+.xingright-content p {
+  font-size: 0.89rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5rem;
+}
+.xing-box .form-control{border: 1px solid rgba(60, 60, 60, 0.5);padding:10px;margin-top: 30px;border-radius: 8px;font-size: 14px;font-weight: 400;color: #959595;}
+.form-check .form-check-input{border: 2px solid #959595;border-radius: 0px;padding: 5px;}
+.form-check-label p{color: #959595;font-size: 14px;}
+.form-check-label a{color: #3730A3;}
+.xing-button .btn-light{background: rgba(130, 0, 191, 0.1);border-radius: 0px;height: 48px;}
+.xing-button a{font-size: 16px;font-weight: 600;color: #9D9D9D;padding: 10px;}
+.xing-box{padding: 30px;}
+.xingright-content a {
+  color: #3730A3;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  padding: 30px;
+  text-align: right;
+}
+a {
+  color: #333 !important;
+  text-decoration: none !important;
+}
+.icon-rotate-180 {
+  transform: rotate(180deg);
+  color: #333;
+}

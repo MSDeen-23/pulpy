@@ -1,0 +1,23 @@
+server:
+  port: 8083
+
+jwt:
+  securitykey: 9pOCRs7ikThaJzir15hkmHn0ag51K-YfWJiyLnfnPojlCSqBkD_WcJEjVA2rRJiLM5tc-cdC5_psLrRD4AvRnYn-bDl1XvVvDk9KFW8-Z9mtY3XvjgIsDm6kYEzB7EVj840PGLqO1NDsIN3_pf8MsE_cjWVFdHZhWWj8s48NDS0
+
+spring:
+  application:
+    name: OAUTH-SERVICE
+    datasource:
+      url: jdbc:postgresql://localhost:5432/pulpy-user
+      username: sharuk
+      password: 12345
+      jpa:
+        hibernate:
+          ddl-auto: update
+        show-sql: true
+        properties:
+          hibernate:
+            format_sql: true
+            dialect: org.hibernate.dialect.PostgreSQL81Dialect
+            jdbc:
+              time_zone: UTC

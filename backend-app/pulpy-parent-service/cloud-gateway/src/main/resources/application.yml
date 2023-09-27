@@ -1,0 +1,55 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/v1/user/**
+        - id: CAMPAIGN-SERVICE
+          uri: lb://CAMPAIGN-SERVICE
+          predicates:
+            - Path=/api/v1/campaign/**
+        - id: TEMPLATE-SERVICE
+          uri: lb://TEMPLATE-SERVICE
+          predicates:
+            - Path=/api/v1/template/**
+        - id: LEADS-SERVICE
+          uri: lb://LEADS-SERVICE
+          predicates:
+            - Path=/api/v1/leads/**
+        - id: OAUTH-SERVICE
+          uri: lb://OAUTH-SERVICE
+          predicates:
+            - Path=/api/v1/oauth/**
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliSeconds: 4000
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud.gateway: DEBUG
+        http.server.reactive: DEBUG
+        web.reactive: DEBUG
+
+
+jwt:
+  securitykey: 9pOCRs7ikThaJzir15hkmHn0ag51K-YfWJiyLnfnPojlCSqBkD_WcJEjVA2rRJiLM5tc-cdC5_psLrRD4AvRnYn-bDl1XvVvDk9KFW8-Z9mtY3XvjgIsDm6kYEzB7EVj840PGLqO1NDsIN3_pf8MsE_cjWVFdHZhWWj8s48NDS0
+

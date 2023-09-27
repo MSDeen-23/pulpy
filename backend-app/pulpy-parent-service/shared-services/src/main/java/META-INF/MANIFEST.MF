@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Main-Class: com.pulpy.serviceregistry.ServiceRegistryApplication
+Class-Path: javax.inject-1.jar spring-core-5.3.14.jar stax2-api-4.2.1.ja
+ r commons-jxpath-1.3.jar jackson-datatype-jdk8-2.13.1.jar jettison-1.4.
+ 0.jar joda-time-2.3.jar jersey-core-1.19.1.jar slf4j-api-1.7.32.jar gui
+ ce-4.1.0.jar jaxb-runtime-2.3.5.jar commons-configuration-1.10.jar spri
+ ng-beans-5.3.14.jar jul-to-slf4j-1.7.32.jar spring-aop-5.3.14.jar sprin
+ g-expression-5.3.14.jar commons-codec-1.15.jar spring-cloud-starter-net
+ flix-eureka-server-3.1.0.jar reactive-streams-1.0.3.jar spring-boot-sta
+ rter-cache-2.6.2.jar jackson-annotations-2.13.1.jar gson-2.8.9.jar spri
+ ng-boot-2.6.2.jar spring-cloud-loadbalancer-3.1.0.jar logback-classic-1
+ .2.9.jar istack-commons-runtime-3.0.12.jar HdrHistogram-2.1.12.jar jack
+ son-databind-2.13.1.jar spring-boot-starter-2.6.2.jar jackson-core-2.13
+ .1.jar spring-cloud-netflix-eureka-server-3.1.0.jar jersey-apache-clien
+ t4-1.19.1.jar snakeyaml-1.29.jar spring-context-5.3.14.jar spring-secur
+ ity-crypto-5.6.1.jar xmlpull-1.1.3.1.jar jakarta.activation-api-1.2.2.j
+ ar tomcat-embed-core-9.0.56.jar spring-boot-starter-tomcat-2.6.2.jar ne
+ tflix-eventbus-0.3.0.jar reactor-extra-3.4.6.jar spring-boot-starter-ac
+ tuator-2.6.2.jar netflix-infix-0.3.0.jar commons-lang-2.6.jar jackson-m
+ odule-parameter-names-2.13.1.jar jakarta.annotation-api-1.3.5.jar jakar
+ ta.xml.bind-api-2.3.3.jar jackson-dataformat-xml-2.13.1.jar spring-boot
+ -autoconfigure-2.6.2.jar jersey-server-1.19.4.jar bcpkix-jdk15on-1.68.j
+ ar spring-cloud-starter-3.1.0.jar log4j-to-slf4j-2.17.0.jar commons-mat
+ h-2.2.jar spring-boot-starter-web-2.6.2.jar tomcat-embed-el-9.0.56.jar 
+ spring-boot-actuator-autoconfigure-2.6.2.jar spring-web-5.3.14.jar spri
+ ng-boot-actuator-2.6.2.jar stringtemplate-3.2.1.jar jakarta.activation-
+ 1.2.2.jar log4j-api-2.17.0.jar servo-core-0.12.21.jar antlr-2.7.7.jar s
+ pring-cloud-commons-3.1.0.jar xstream-1.4.18.jar spring-cloud-context-3
+ .1.0.jar spring-boot-starter-json-2.6.2.jar jersey-client-1.19.4.jar re
+ actor-core-3.4.13.jar antlr-runtime-3.4.jar spring-context-support-5.3.
+ 14.jar eureka-client-1.10.17.jar txw2-2.3.5.jar httpcore-4.4.15.jar mxp
+ arser-1.2.2.jar micrometer-core-1.8.1.jar freemarker-2.3.31.jar Latency
+ Utils-2.0.3.jar tomcat-embed-websocket-9.0.56.jar spring-security-rsa-1
+ .0.10.RELEASE.jar jackson-datatype-jsr310-2.13.1.jar spring-boot-starte
+ r-freemarker-2.6.2.jar guava-19.0.jar spring-cloud-starter-loadbalancer
+ -3.1.0.jar spring-boot-starter-logging-2.6.2.jar spring-webmvc-5.3.14.j
+ ar jsr311-api-1.1.1.jar bcprov-jdk15on-1.68.jar woodstox-core-6.2.1.jar
+  spring-cloud-netflix-eureka-client-3.1.0.jar evictor-1.0.0.jar jersey-
+ servlet-1.19.4.jar eureka-core-1.10.17.jar spring-jcl-5.3.14.jar httpcl
+ ient-4.5.13.jar logback-core-1.2.9.jar
+
